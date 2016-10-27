@@ -9,14 +9,14 @@ swoole与phalcon框架结合，cms
 
 ##swoole的ide智能提示
 ```sh
-git clone https://github.com/eaglewu/swoole-ide-helper
+git clone --depth=1 https://github.com/eaglewu/swoole-ide-helper
 ```
 然后new一个swoole的libraries，将swoole-ide-helper/src目录Add External folder，以后新项目选中创建的swoole即可。
 
 
 ##phalcon的ide智能提示
 ```sh
-git clone https://github.com/phalcon/phalcon-devtools.git
+git clone --depth=1 https://github.com/phalcon/phalcon-devtools.git
 ```
 然后new一个phalcon的libraries,然后将phalcon-devtools/ide/stubs/Phalcon目录Add External folder，以后新项目选中创建的phalcon即可。
 
