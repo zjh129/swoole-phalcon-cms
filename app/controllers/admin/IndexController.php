@@ -5,6 +5,6 @@ class IndexController extends BaseController
 {
     public function indexAction()
     {
-        echo "asds";
+        echo "真的很牛逼";
     }
 }

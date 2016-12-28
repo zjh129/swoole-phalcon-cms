@@ -54,11 +54,11 @@ class HttpServer
         /**
          * Read auto-loader
          */
-        require APP_PATH . "/app/config/loader.php";
+        require_once APP_PATH . "/app/config/loader.php";
         /**
          * Read services
          */
-        require APP_PATH . "/app/config/services.php";
+        require_once APP_PATH . "/app/config/services.php";
         $this->application = new \Phalcon\Mvc\Application($di);
     }
 
